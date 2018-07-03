@@ -26,7 +26,7 @@ Interlude aims to compete with the most popular 4k rhythm games, Etterna (a bran
 You can read a more detailed plan of features [here](https://docs.google.com/document/d/1qMs9kOYra077usI3LIZ28-BaAVQY7y-Te-EilGAncqg/edit) but at the time of writing this, it isn't up to date or complete.
 The plan is that you'll have enough to play either competitely or casually, the way you like :)
 
-###We got..
+### We got..
 + Support for skins/themes where you can customise the appearance of the game and the notes you hit, including animations and a bit of flexibility in layout of the user interface.
 + Ability to convert charts from .osu (osu!mania) and .sm (Stepmania/Etterna)
 + Work in progress automatic chart difficulty calculator that gives you a performance rating and stores your scores - Read about it [here](https://docs.google.com/document/d/1sW1OGfcRdu8UL1duk66vNv96GaDKCUef5YrrpmZhMNs/edit)
@@ -37,7 +37,7 @@ The plan is that you'll have enough to play either competitely or casually, the 
 + The ability to use "rates" - Speeding up or slowing down a chart to suit your skill level
 + A choice of either the notes scrolling up or down the screen (and some other stuff you might want like screencovers)
 
-###We plan to implement..
+### We plan to implement..
 + A really good automatic difficulty calculator that beats out MSD (and less mentionably star rating)
 + Peer-to-peer online multiplayer and chat
 + A fully featured chart editor
@@ -45,7 +45,7 @@ The plan is that you'll have enough to play either competitely or casually, the 
 + Collections and playlists of maps
 + Sound effects when you hit notes (but they won't be assignable to each note individually like keysounding in osu!mania or LR2)
 
-###We might eventually implement..
+### We might eventually implement..
 + Online multiplayer and score servers (If I can afford/get stable income to support it and enough people are interested)
 + Regular/weekly challenges for players to complete
 + Some more stuff hopefully, we'll see...
