@@ -1,4 +1,4 @@
-Interlude is a keyboard-based rhythm game written in C#. It supports some of the popular chart formats from other rhythm games and aims to combine the best features from other rhythm games. The intent is to create a platform that can be worthwile for both casual and competitive play.
+Interlude is a keyboard-based rhythm game written in C#. It supports some of the popular chart formats from other rhythm games and aims to combine their best features. The intent is to create a platform that can be worthwile for both casual and competitive play.
 
 ## Hi
 
