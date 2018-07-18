@@ -1,17 +1,15 @@
-<<<<<<< HEAD
 Interlude is an open source rhythm game written in C#. You play it with a keyboard it supports some of the popular chart formats from other rhythm games. Interlude aims to combine the best features from other rhythm games and to create a platform that can be used equally casually and competitively.
-=======
 Interlude is a keyboard-based rhythm game written in C#. It supports some of the popular chart formats from other rhythm games and aims to combine their best features. The intent is to create a platform that can be worthwile for both casual and competitive play.
->>>>>>> c1023ccdd10c9b784af422cb694bc6207aed2457
 
 ## Check it out (it's free!)
 
-You can get the latest release [from here](https://github.com/percyqaz/YAVSRG/releases/)
+You can get the latest release [from here](https://github.com/percyqaz/YAVSRG/releases/).
+
 <b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
 
 ## What's the point of developing another rhythm game?
 
-<details><summary>Click if you actually care cause i wrote a lot</summary>
+<details><summary>Click if you actually care cause i wrote a lot</summary><p>
 Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5) and osu!mania. This is because I (percyqaz) have found them lacking in certain features which in most cases are implemented by one of the two but not the other.
 
 ### Issues with osu!mania (the main ones)
@@ -25,7 +23,7 @@ Interlude aims to compete with the most popular 4k rhythm games, Etterna (a bran
 * There is no support for "long note" charts in stepmania, where a chart contains patterns of notes you must hold and release at the correct time in complicated patterns. Hold notes in Etterna act almost exactly like tap notes but look different, as the hold requirement is too lenient to be used as a challenging game mechanic.
 * There is little to no support for "slider velocity" charts like in osu!mania where varying scroll speeds can be set during a chart to create visual effects such as teleporting notes, slow downs, bouncing effects, etc. I really like using this mechanic from osu!mania for adding extra interesting details to charts other than timing as this can change how players "read" or interpret the notes on the screen.
 * While support for other keymodes exist in Stepmania, it is being phased out in Etterna, and MSD does not support keymodes other than 4 keys. I would like to create a good difficulty calculator for keymodes from 3k to 10k and am especially interested in having quite a large focus on 7k as it is a popular keymode and used in games such as LR2, O2Jam and IIDX.
-</details>
+</p></details>
 
 ## Features
 
