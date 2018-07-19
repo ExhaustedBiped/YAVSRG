@@ -4,7 +4,7 @@ Interlude is an open source keyboard-based rhythm game written in C#. It support
 
 You can get the latest release [from here](https://github.com/percyqaz/YAVSRG/releases/).
 
-<b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
+# <b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
 
 ## What's the point of developing another rhythm game?
 
