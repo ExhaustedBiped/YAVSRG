@@ -3,12 +3,13 @@ Interlude is an open source keyboard-based rhythm game written in C#. It support
 ## Check it out (it's free!)
 
 You can get the latest release [from here](https://github.com/percyqaz/YAVSRG/releases/).
+You can join the discord server [here](https://discord.gg/tA22tWR).
 
 # <b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
 
 ## What's the point of developing another rhythm game?
 
-Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5) and osu!mania. This is because they lack certain features which in most cases are implemented by one of the two but not the other.
+Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5), osu!mania and Quaver when it comes out. This is because they lack certain features which in most cases are implemented by one of the two but not the other.
 <details><summary>Click if you actually care cause i wrote a lot</summary>
 
 <h3>Issues with osu!mania (the main ones)</h3>
@@ -18,7 +19,7 @@ Interlude aims to compete with the most popular 4k rhythm games, Etterna (a bran
 <li>There is a fairly limited range of charts available that are ranked for osu!mania due to the "quality control" in place by human review. If I end up creating an online score system I would like to allow all scores to be saved online rather than just select charts. Stepmania has a much wider variety of charts simply because of age and are used to converting them to osu!mania even though they are not ranked and players cannot set global scores on them.</li>
   </ul>
 
-<h3>Issues with Etterna</h3>
+<h3>Issues with Etterna (the main ones)</h3>
 <ul>
 <li>There is no in-built chart editor, with popular external editors including DDReam Studio and ArrowVortex. These again do not have some features I'd like when working with charts. They also operate in the stepmania chart format, which is clunky and often not normalised or formatted correctly so I would very much like to get away from this file format for charts.</li>
 <li>Wife, the accuracy system for Etterna, is very harsh on misses while being notably more lenient on other signs of poor accuracy such as hitting a lot of "greats" instead of "perfects". I think it is too focussed on making sure players hit all the notes to be a good measure of rhythm or skill other than the physical skill of not missing. This may also be one of the root causes of issues with MSD rating for scores as a handful of misses will severely degrade your score even though your performance could really be much higher. (and this causes the MSD to be higher to compensate, causing broken scores when someone actually doesn't miss)</li>
@@ -42,16 +43,20 @@ You can read a more detailed plan of features [here](https://docs.google.com/doc
 + Support for keymodes 3-10
 + The ability to use "rates" - Speeding up or slowing down a chart to suit your skill level
 + A choice of either the notes scrolling up or down the screen (and some other stuff you might want like screencovers)
++ Peer-to-peer online multiplayer
++ Collections/tools to organise charts
++ Ingame downloading and importing via stepmaniaonline.net
 
 ### We plan to implement..
 + A really good automatic difficulty calculator that beats out MSD (and less mentionably star rating)
-+ Peer-to-peer online multiplayer and chat
 + A fully featured chart editor
 + An HP system where you can "fail" a chart by running out of HP due to missing too much
-+ Collections and playlists of maps
++ Column-independent scroll speed changes
++ BMS support with scratch lanes
 + Sound effects when you hit notes (but they won't be assignable to each note individually like keysounding in osu!mania or LR2)
 
 ### We might eventually implement..
-+ Online multiplayer and score servers (If I can afford/get stable income to support it and enough people are interested)
++ Online multiplayer and score servers (If enough people are interested and I pay for dedicated hosting)
 + Regular/weekly challenges for players to complete
++ Support for SDVX special lanes
 + Some more stuff hopefully, we'll see...
