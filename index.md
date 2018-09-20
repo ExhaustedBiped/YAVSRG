@@ -9,7 +9,7 @@ You can join the discord server [here](https://discord.gg/tA22tWR).
 
 ## What's the point of developing another rhythm game?
 
-Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5), osu!mania and Quaver when it comes out. This is because they lack certain features which in most cases are implemented by one of the two but not the other.
+Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5) and osu!mania. This is because they lack certain features which in most cases are implemented by one of the two but not the other.
 <details><summary>Click if you actually care cause i wrote a lot</summary>
 
 <h3>Issues with osu!mania (the main ones)</h3>
@@ -41,6 +41,7 @@ You can read a more detailed plan of features [here](https://docs.google.com/doc
 + Caching and searching of installed charts for fast loading speeds.
 + Support for hold note styled charts, slider velocities in charts and mines in charts
 + Support for keymodes 3-10
++ Column-independent scroll speed changes
 + The ability to use "rates" - Speeding up or slowing down a chart to suit your skill level
 + A choice of either the notes scrolling up or down the screen (and some other stuff you might want like screencovers)
 + Peer-to-peer online multiplayer
@@ -51,12 +52,11 @@ You can read a more detailed plan of features [here](https://docs.google.com/doc
 + A really good automatic difficulty calculator that beats out MSD (and less mentionably star rating)
 + A fully featured chart editor
 + An HP system where you can "fail" a chart by running out of HP due to missing too much
-+ Column-independent scroll speed changes
 + BMS support with scratch lanes
 + Sound effects when you hit notes (but they won't be assignable to each note individually like keysounding in osu!mania or LR2)
 
 ### We might eventually implement..
 + Online multiplayer and score servers (If enough people are interested and I pay for dedicated hosting)
 + Regular/weekly challenges for players to complete
-+ Support for SDVX special lanes
++ Support for SDVX lasers
 + Some more stuff hopefully, we'll see...
