@@ -24,7 +24,7 @@ Interlude aims to compete with the most popular 4k rhythm games, Etterna (a bran
 <li>There is no in-built chart editor, with popular external editors including DDReam Studio and ArrowVortex. These again do not have some features I'd like when working with charts. They also operate in the stepmania chart format, which is clunky and often not normalised or formatted correctly so I would very much like to get away from this file format for charts.</li>
 <li>Wife, the accuracy system for Etterna, is very harsh on misses while being notably more lenient on other signs of poor accuracy such as hitting a lot of "greats" instead of "perfects". I think it is too focussed on making sure players hit all the notes to be a good measure of rhythm or skill other than the physical skill of not missing. This may also be one of the root causes of issues with MSD rating for scores as a handful of misses will severely degrade your score even though your performance could really be much higher. (and this causes the MSD to be higher to compensate, causing broken scores when someone actually doesn't miss)</li>
 <li>There is no support for "long note" charts in stepmania, where a chart contains patterns of notes you must hold and release at the correct time in complicated patterns. Hold notes in Etterna act almost exactly like tap notes but look different, as the hold requirement is too lenient to be used as a challenging game mechanic.</li>
-<li>There is little to no support for "slider velocity" charts like in osu!mania where varying scroll speeds can be set during a chart to create visual effects such as teleporting notes, slow downs, bouncing effects, etc. I really like using this mechanic from osu!mania for adding extra interesting details to charts other than timing as this can change how players "read" or interpret the notes on the screen.</li>
+<li>There is minimal community support for "slider velocity" charts like in osu!mania where varying scroll speeds can be set during a chart to create visual effects such as teleporting notes, slow downs, bouncing effects, etc. I really like using this mechanic from osu!mania for adding extra interesting details to charts other than timing as this can change how players "read" or interpret the notes on the screen.</li>
 <li>While support for other keymodes exist in Stepmania, it is being phased out in Etterna, and MSD does not support keymodes other than 4 keys. I would like to create a good difficulty calculator for keymodes from 3k to 10k and am especially interested in having quite a large focus on 7k as it is a popular keymode and used in games such as LR2, O2Jam and IIDX.</li>
   </ul>
 </details>
@@ -52,7 +52,7 @@ You can read a more detailed plan of features [here](https://docs.google.com/doc
 + A really good automatic difficulty calculator that beats out MSD (and less mentionably star rating)
 + A fully featured chart editor
 + An HP system where you can "fail" a chart by running out of HP due to missing too much
-+ BMS support with scratch lanes
++ BMS support with (optional) scratch lanes
 + Sound effects when you hit notes (but they won't be assignable to each note individually like keysounding in osu!mania or LR2)
 
 ### We might eventually implement..
