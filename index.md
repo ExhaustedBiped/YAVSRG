@@ -1,62 +1,34 @@
-Interlude is an open source keyboard-based rhythm game written in C#. It supports some of the popular chart formats from other rhythm games and aims to combine their best features. The intent is to create a platform that can be worthwile for both casual and competitive play.
+Interlude is an open source keyboard-based rhythm game written in F# (Legacy version in C# currently available, trying to release F# rewrite by christmas).
 
-## Check it out (it's free!)
+## Check it out
 
 You can get the latest release [from here](https://github.com/percyqaz/YAVSRG/releases/).
 You can join the discord server [here](https://discord.gg/tA22tWR).
 
-# <b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
+<b>If you're new, you'll want to read the [quick start guide](https://github.com/percyqaz/YAVSRG/wiki/Quick-Start-Guide) on the [wiki](https://github.com/percyqaz/YAVSRG/wiki).</b>
 
-## What's the point of developing another rhythm game?
+## Why another rhythm game?
 
-Interlude aims to compete with the most popular 4k rhythm games, Etterna (a branch of Stepmania 5) and osu!mania. This is because they lack certain features which in most cases are implemented by one of the two but not the other.
-<details><summary>Click if you actually care cause i wrote a lot</summary>
-
-<h3>Issues with osu!mania (the main ones)</h3>
-<ul>
-<li>Star rating *sucks* and we're talking really bad. The PP system is notorious for favouring patterns like "jumptrills" rather than things that are either physically difficult or hard in context of a rhythm game such as technical rhythms or patterns of notes. This makes osu!mania almost useless for competitive play as your ranking is not very well correlated with ability in all areas.</li>
-<li>The editor for charts in osu!mania is fairly dated and is the bare minimum tool for creating charts. I would like to have an editor with many more tools, especially for things like scroll speed changes and pattern generators to speed up the workflow and also make charting accessible to more people.</li>
-<li>There is a fairly limited range of charts available that are ranked for osu!mania due to the "quality control" in place by human review. If I end up creating an online score system I would like to allow all scores to be saved online rather than just select charts. Stepmania has a much wider variety of charts simply because of age and are used to converting them to osu!mania even though they are not ranked and players cannot set global scores on them.</li>
-  </ul>
-
-<h3>Issues with Etterna (the main ones)</h3>
-<ul>
-<li>There is no in-built chart editor, with popular external editors including DDReam Studio and ArrowVortex. These again do not have some features I'd like when working with charts. They also operate in the stepmania chart format, which is clunky and often not normalised or formatted correctly so I would very much like to get away from this file format for charts.</li>
-<li>Wife, the accuracy system for Etterna, is very harsh on misses while being notably more lenient on other signs of poor accuracy such as hitting a lot of "greats" instead of "perfects". I think it is too focussed on making sure players hit all the notes to be a good measure of rhythm or skill other than the physical skill of not missing. This may also be one of the root causes of issues with MSD rating for scores as a handful of misses will severely degrade your score even though your performance could really be much higher. (and this causes the MSD to be higher to compensate, causing broken scores when someone actually doesn't miss)</li>
-<li>There is no support for "long note" charts in stepmania, where a chart contains patterns of notes you must hold and release at the correct time in complicated patterns. Hold notes in Etterna act almost exactly like tap notes but look different, as the hold requirement is too lenient to be used as a challenging game mechanic.</li>
-<li>There is minimal community support for "slider velocity" charts like in osu!mania where varying scroll speeds can be set during a chart to create visual effects such as teleporting notes, slow downs, bouncing effects, etc. I really like using this mechanic from osu!mania for adding extra interesting details to charts other than timing as this can change how players "read" or interpret the notes on the screen.</li>
-<li>While support for other keymodes exist in Stepmania, it is being phased out in Etterna, and MSD does not support keymodes other than 4 keys. I would like to create a good difficulty calculator for keymodes from 3k to 10k and am especially interested in having quite a large focus on 7k as it is a popular keymode and used in games such as LR2, O2Jam and IIDX.</li>
-  </ul>
-</details>
+Cause osu!mania kinda sucks in a lot of ways but I think hold-style and SV-style charts are still worthwhile.
+Interlude aims to combine all the good out of similar keyboard games like Stepmania/Etterna/osu!mania/Quaver/LR2. Quaver has similar goals but I believe their difficulty calculator will suffer identical issues to star rating.
 
 ## Features
-
-You can read a more detailed plan of features [here](https://docs.google.com/document/d/1qMs9kOYra077usI3LIZ28-BaAVQY7y-Te-EilGAncqg/edit) but at the time of writing this, it isn't up to date or complete.
-
-### We got..
-+ Support for skins/themes where you can customise the appearance of the game and the notes you hit, including animations and a bit of flexibility in layout of the user interface.
++ Support for skins/themes to customise noteskins, interface layout and some other stuff
 + Ability to convert charts from .osu (osu!mania) and .sm (Stepmania/Etterna)
 + Work in progress automatic chart difficulty calculator that gives you a performance rating and stores your scores - Read about how it works [here](https://docs.google.com/document/d/1sW1OGfcRdu8UL1duk66vNv96GaDKCUef5YrrpmZhMNs/edit)
 + New performance can be recalculated from old scores when the calculator is updated
-+ Caching and searching of installed charts for fast loading speeds.
 + Support for hold note styled charts, slider velocities in charts and mines in charts
++ Accuracy and Life systems can be customised to simulate any game you can see what you would've got in other games on the fly
 + Support for keymodes 3-10
 + Column-independent scroll speed changes
-+ The ability to use "rates" - Speeding up or slowing down a chart to suit your skill level
-+ A choice of either the notes scrolling up or down the screen (and some other stuff you might want like screencovers)
-+ Peer-to-peer online multiplayer
++ Rates - Speeding up or slowing down a chart to suit your skill level
++ Upscroll and Downscroll both supported, as well as screencovers
 + Collections/tools to organise charts
-+ Ingame downloading and importing via stepmaniaonline.net
++ Ingame downloading and importing via etternaonline.com
 
-### We plan to implement..
-+ A really good automatic difficulty calculator that beats out MSD (and less mentionably star rating)
+## Planned features..
++ An automatic difficulty calculator that beats all others
 + A fully featured chart editor
-+ An HP system where you can "fail" a chart by running out of HP due to missing too much
 + BMS support with (optional) scratch lanes
-+ Sound effects when you hit notes (but they won't be assignable to each note individually like keysounding in osu!mania or LR2)
-
-### We might eventually implement..
-+ Online multiplayer and score servers (If enough people are interested and I pay for dedicated hosting)
++ Online score servers/leaderboards
 + Regular/weekly challenges for players to complete
-+ Support for SDVX lasers
-+ Some more stuff hopefully, we'll see...
